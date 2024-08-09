@@ -27,6 +27,8 @@ const argv: any = yargs
 
   const getScreen = async (device: Device, url: string, path: string) => {
     const browser = await puppeteer.launch({
+      // precisa configurar a url do chrome no seu sistema.
+      // no readme tem alguns exemplos.
       executablePath:
         '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
       headless: true,

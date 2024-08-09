@@ -23,6 +23,33 @@ Certifique-se de que o diretório \`src/prints\` exista para armazenar os screen
 
 > mkdir -p src/prints
 
+**Configure corretamente o path para o browser, pode ser que o path precise ser ajustado de acordo com sua configuração**
+
+**macOS**
+Google Chrome: >/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Chromium: >/Applications/Chromium.app/Contents/MacOS/Chromium
+
+**Linux**
+Google Chrome:
+
+> /usr/bin/google-chrome
+> Chromium:
+> /usr/bin/chromium-browser
+
+**Windows**
+
+Google Chrome:
+
+> C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Google Chrome (Program Files (x86)):
+
+> C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+Chromium:
+
+> C:\Program Files\Chromium\Application\chrome.exe
+
 ## Uso
 
 Execute a aplicação passando uma URL como argumento. A aplicação irá capturar screenshots da URL em diferentes tamanhos de tela de dispositivos e salvar as imagens no diretório \`src/prints\`.
