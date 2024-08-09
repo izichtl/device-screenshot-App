@@ -1,3 +1,6 @@
+# Prints
+src/prints/*
+
 # Logs
 logs
 *.log
